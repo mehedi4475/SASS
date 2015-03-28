@@ -1,0 +1,116 @@
+$oneColor : #184399;
+$twoColor : #328f0d;
+$threeColor : #a49815;
+$threeColor : #a49815;
+$fourColor : #b6329f;
+$fiveColor : #d15d17;
+
+nav{
+
+	ul{
+
+		list-style:none;
+
+		li{
+
+			float:left;
+			margin-right:5px;
+
+			a{
+				display:block;
+				padding:10px 20px;;
+				color:lighten($oneColor, 40%);
+				text-decoration:none;
+				background-color: lighten($oneColor, 20%);
+				border:1px solid darken($oneColor, 30%);
+				border-radius:5px;
+			}
+		}
+	}
+}
+
+.largeButton{
+	padding:10px 15px;
+ 	border:none;
+ 	border-radius: 5px;
+}
+
+.smallButton{
+	padding:5px 10px;
+ 	border:none;
+ 	border-radius: 5px;
+}
+
+
+.btn-a {  
+	@extend .largeButton;
+  	color:lighten($oneColor, 5%);
+ 	background-color: lighten($oneColor, 50%);
+  	border:1px solid lighten($oneColor, 20%);
+}
+
+.btn-b{
+	@extend .largeButton;
+	color:lighten($twoColor, 5%);
+ 	background-color: lighten($twoColor, 50%);
+ 	border:1px solid lighten($twoColor, 20%);
+}
+
+.btn-c{
+	@extend .largeButton;
+	color:lighten($threeColor, 5%);
+ 	background-color: lighten($threeColor, 50%);
+ 	border:1px solid lighten($threeColor, 20%);
+}
+
+.btn-d{
+	@extend .largeButton;
+	color:lighten($fourColor, 5%);
+ 	background-color: lighten($fourColor, 50%);
+ 	border:1px solid lighten($fourColor, 20%);
+}
+
+.btn-e{
+	@extend .largeButton;
+	color:lighten($fiveColor, 5%);
+ 	background-color: lighten($fiveColor, 50%);
+ 	border:1px solid lighten($fiveColor, 20%);
+}
+
+
+.btn-a:hover{
+	background-color: lighten($oneColor, 45%);
+	color: lighten($oneColor, 0%);
+	border:1px solid lighten($oneColor, 10%);
+}
+
+.btn-b:hover{	
+	background-color: lighten($twoColor, 45%);
+	color: lighten($twoColor, 0%);
+	border:1px solid lighten($twoColor, 10%);
+
+}
+
+.btn-c:hover{	
+	background-color: lighten($threeColor, 45%);
+	color: lighten($threeColor, 0%);
+	border:1px solid lighten($threeColor, 10%);
+
+}
+
+
+.btn-d:hover{	
+	background-color: lighten($fourColor, 45%);
+	color: lighten($fourColor, 0%);
+	border:1px solid lighten($fourColor, 10%);
+
+}
+
+
+
+.btn-e:hover{	
+	background-color: lighten($fiveColor, 45%);
+	color: lighten($fiveColor, 0%);
+	border:1px solid lighten($fiveColor, 10%);
+
+}
